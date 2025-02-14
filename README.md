@@ -56,7 +56,7 @@ To ensure your project has isolated dependencies, set up a virtual environment i
     source .venv/bin/activate
    
 ### Step 2: Installing Dependencies
-Once your virtual environment is active, you need to install all required dependencies for the project.
+Once your virtual environment is active, refer (AI Agent Documentation) docx attached in mail. you need to install all required dependencies for the project.
 
 1. Ensure you're in the project directory (siemens_assignment), where the requirements.txt file is located.
 2. Install the dependencies using pip:
@@ -68,27 +68,25 @@ This will install all the necessary libraries, including requests, fastapi, stre
 ---
 
 ## Running the Application
-### Step 3: Starting the Backend
-1. Add the .env required values, you can able to find it in documentation (AI Agent Documentation) attached.
-   
+### Step 3: Starting the Backend 
 The backend is built using FastAPI, which handles the conversation logic and communicates with external APIs to fetch cryptocurrency information.
-2. Navigate to the src folder in your project directory:
+1. Navigate to the src folder in your project directory:
     ```bash
    cd src
    
-3. Start the backend server by using uvicorn. This will launch the FastAPI server on your local machine:
+2. Start the backend server by using uvicorn. This will launch the FastAPI server on your local machine:
   ```bash
     uvicorn backend:app --host 0.0.0.0 --port 8080 --reload
 ```
 
    
-4. The FastAPI server will run at http://127.0.0.1:8080. It exposes the /conversation endpoint to handle user queries.
+3. The FastAPI server will run at http://127.0.0.1:8080. It exposes the /conversation endpoint to handle user queries.
     ```bash
    cd ..
    siemens_assignmnet
   
    
-5. Now start the frontend UI through app.py using cmd 
+4. Now start the frontend UI through app.py using cmd 
     ```bash
    streamlit run app.py
    ```
