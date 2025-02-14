@@ -30,8 +30,6 @@ Additionally, you will need:
 - **API Keys** for accessing external cryptocurrency data (e.g., CoinGecko).
 - **Together.ai API Key** for running the LLaMA model.
 
-Make sure to place these keys in a `.env` file as described in the setup instructions.
-
 ---
 
 ## Installation
@@ -71,24 +69,26 @@ This will install all the necessary libraries, including requests, fastapi, stre
 
 ## Running the Application
 ### Step 3: Starting the Backend
+1. Add the .env required values, you can able to find it in documentation (AI Agent Documentation) attached.
+   
 The backend is built using FastAPI, which handles the conversation logic and communicates with external APIs to fetch cryptocurrency information.
-1. Navigate to the src folder in your project directory:
+2. Navigate to the src folder in your project directory:
     ```bash
    cd src
    
-2. Start the backend server by using uvicorn. This will launch the FastAPI server on your local machine:
+3. Start the backend server by using uvicorn. This will launch the FastAPI server on your local machine:
   ```bash
     uvicorn backend:app --host 0.0.0.0 --port 8080 --reload
 ```
 
    
-3. The FastAPI server will run at http://127.0.0.1:8080. It exposes the /conversation endpoint to handle user queries.
+4. The FastAPI server will run at http://127.0.0.1:8080. It exposes the /conversation endpoint to handle user queries.
     ```bash
    cd ..
-   siemens_assignmnet_ai_agent
+   siemens_assignmnet
   
    
-4. Now start the frontend UI through app.py using cmd 
+5. Now start the frontend UI through app.py using cmd 
     ```bash
    streamlit run app.py
    ```
