@@ -1,0 +1,25 @@
+Sample Questions to test the Crypto Asssitant:
+----------------------------------------------
+
+Spanish,
+1. ¿Cuál es el precio actual de Bitcoin? (What is the current price of Bitcoin?)
+2. ¿Cuánto cuesta Ethereum hoy? (How much is Ethereum trading for today?)
+3. ¿Puedes comparar bitcoin con bitcoin de EE. UU.? (Can you compare bitcoin vs bitcoin US?)
+
+Ukrainian,
+4. Polkadot проти Dogecoin (Polkadot vs Dogecoin)
+
+French,
+5. Quel est le prix actuel de Litecoin? (What is the latest price for Litecoin?)
+6. Quel est le prix de Dogecoin? (Can you show me the price of Dogecoin?)
+7. Quel est le volume de marché actuel de Solana? (What is the market cap of Solana at the moment?)
+8. Bitcoin ou Litecoin qui a une bonne valeur, lequel peut-on acheter ? (Bitcoin or Litecoin which is having good value, which one is can buy?)
+
+German,
+9. Was ist der Preis von Ethereum im Vergleich zu Bitcoin? (What’s the price of Ethereum in relation to Bitcoin right now?)
+10. Wie viel kostet Polkadot gerade? (How much is Polkadot priced at right now?)
+
+Additionally,
+IMPORTANT NOTE: 
+  1. If you see 401: error - It means my key might be expired in together.ai platform, try using - fca22c6eff17e4d32012cb30c806ef14c912d9533dfb96bf0f9d4a37f2710d6b (backup key)
+  2. Or you can create an account and use your key also.
